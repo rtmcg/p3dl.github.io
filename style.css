@@ -169,6 +169,10 @@ hr {
     width: 100%;
 }
 
+ul.a {
+    list-style-type: circle;
+  }
+
 .reference {
     border-bottom : solid 1px #ffffff;
 }
