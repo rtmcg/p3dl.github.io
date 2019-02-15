@@ -1,5 +1,5 @@
 # Gearbox Makerspace User Agreement
-## open hours: m - f 09h00 - 16h45
+## open hours: m - f ; 09h00 - 16h45
  
 ## rules and regulations 
 * Users must be current students at the McGill Department of Physics.
@@ -53,24 +53,24 @@ I agree to have fun and make some cool things and to help others do the same.
   \
   \
   \
-\_____________________________  
+\___________________________________________________  
 
 **name**  
   
   \
   \
-\_____________________________  
+\___________________________________________________  
 
 **student ID**
   
   \
   \
-\_____________________________  
+\___________________________________________________  
 
 **date**
   
   \
   \
-\_____________________________  
+\___________________________________________________  
 
 **signature**  
