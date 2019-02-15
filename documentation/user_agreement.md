@@ -17,7 +17,7 @@ McGill's code of conduct.
 3D printer, including copyright and patent infringement regulations.
 * Users are responsible for equipment in the room while they are the ones actively logged in.
 * No tools, equipment, supplies, materials belonging to the makerspace may be taken out of the room.
-* Students agree not to change default settings or paramters on the equipment. If in doubt about a parameter or setting, consider it default and do not change it. Contact the TA or Robert Turner for help.
+* Students agree not to change default settings or paramters on the equipment. If in doubt about a parameter or setting, consider it default and do not change it. Contact the first two personnel on the list below for help.
 * Students trained in using the 3-D printers will have card key access to the makerspace during Open Hours, and are only allowed into the makerspace at those times. Access is granted to a user upon swiping their McGill identification card over the card reader next to the door.
 * After Hours access (M-F 16h45 - 21h00) is availble on an individual basis to students who actively support the Gearbox community.
 After Hours access can also be granted for a limited time to individuals for demonstrated research project needs.
