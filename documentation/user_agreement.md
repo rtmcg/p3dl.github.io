@@ -53,7 +53,6 @@ I agree to have fun and make some cool things and to help others do the same.
   \
   \
   \
-  
 \_____________________________  
 
 **name**  
