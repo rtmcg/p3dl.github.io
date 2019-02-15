@@ -59,12 +59,12 @@ The IP address is **312.206.36.183:3344**.
     * Nothing being printed.
     * Nothing on the print bed.
 
-5. Remove the spring steel heatbed. It's magnetic! See picture below for a good technique. Remove any fused filament from the bed, and clean it with >90% Isopropanol (Isopropyl alcohol - IUPAC name propan-2-ol; commonly called 2-propanol or IPA) and a fresh, disposable lint-free wipe. Don't touch the cleaned print area of the heatbed with your bare hands or anything else.
+5. Remove the spring steel heatbed. It's magnetic! See picture below for a good technique. Remove any fused filament from the bed, and clean it with >90% Isopropanol *(Isopropyl alcohol - IUPAC name propan-2-ol; commonly called 2-propanol or IPA)* and a fresh, disposable lint-free wipe. Don't touch the cleaned print area of the heatbed with your bare hands or anything else.
     <img src="./images/removingPrusaHeatBed.png" alt="removing the Prusa heatbed" style="width: 90%;">
 
 6. Make sure there filament is loaded into the printer.
     * Make sure there is enough filament for the job. (An estimate of the required amount of filament is provided by the slicer software)
-    * If you need to load or change color, see section **Changing Filament**.
+    * If you need to load or change color, see section **Changing filament**.
 
 7. Click the print button next to your G-code on Repetier.
     * The filament and heat bed will automatically be preheated.
@@ -79,7 +79,7 @@ The IP address is **312.206.36.183:3344**.
 ## Removing print job
 
 1. Once the print job has finished, you should remove the spring steel heatbed with the piece still attached.
-    * It is attached by magnets, see the image at point 5 above.
+    * It is attached by magnets. See point 5 in the section **Printing** above.
     * You may need to move the extruder nozzle or stage to better access it, do so by using the mover controls in Repetier.
       * *__Use caution when moving the extruder! Verify, using small steps, which axes and directions in the software correspond to which physical movements in reality!__*
 
