@@ -38,17 +38,20 @@ long job printer, overnight, or on the weekends. If you have questions concernin
 
 ## Contact Personnel
 * In case of need, contact either:
-* 1 the current TA, whose coordinates will be posted in the makerspace, 
-* 2 Robert Turner <robert.turner@mcgill.ca>, Wong 0121, x6356, or
-* 3 Thomas Brunner <thomas.brunner@mcgill.ca>.
+1. the current TA, whose coordinates will be posted in the makerspace, 
+2. Robert Turner <robert.turner@mcgill.ca>, Wong 0121, x6356, or
+3. Thomas Brunner <thomas.brunner@mcgill.ca>.
 
 <!-- up to here - rt20190205 -->
 
 ## Agreement
 I have read the User Agreement and agree to follow all rules and regulations of the space.
-I agree not to abuse the space, the materials, the tools, and printers. I agree to follow
-all safety protocols, and any harm that occurs to myself is my own fault. And I agree
-to have fun and make some cool things.
+I agree not to abuse the space, the materials, the tools, and printers.
+I agree to follow all safety protocols.
+I will not do anything that will harm myself, others, or damage the equipment.
+I understand that the makerspace is under video surveillance.
+I agree to have fun and make some cool things and to help others do the same.
+
 \
 \
 
