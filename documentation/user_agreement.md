@@ -50,17 +50,18 @@ I will not do anything that will harm myself, others, or damage the equipment.
 I understand that the makerspace is under video surveillance.
 I agree to have fun and make some cool things and to help others do the same.
 
-\
 
->_____________________________
+
+
+> _____________________________
 name
 
->_____________________________
+> _____________________________
 student ID
 
->_____________________________
+> _____________________________
 date
 
->_____________________________
+> _____________________________
 signature
 
