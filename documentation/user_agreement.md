@@ -38,7 +38,7 @@ long job printer, overnight, or on the weekends. If you have questions concernin
 
 ## contact personnel
 * In case of need, contact either:
-1. the current TA, whose coordinates will be posted in the makerspace, 
+1. The current TA, whose coordinates will be posted in the makerspace, 
 2. Robert Turner <robert.turner@mcgill.ca>, Wong 0121, x6356, or
 3. Thomas Brunner <thomas.brunner@mcgill.ca>.
 
