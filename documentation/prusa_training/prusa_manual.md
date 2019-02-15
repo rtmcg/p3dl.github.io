@@ -83,7 +83,7 @@ The IP address is **312.206.36.183:3344**.
     * You may need to move the extruder nozzle or stage to better access it, do so by using the mover controls in Repetier.
       * *__Use caution when moving the extruder! Verify, using small steps, which axes and directions in the software correspond to which physical movements in reality!__*
 
-3. Flex the metal print bed gently towards and then away from the printed part to break their adhesion.
+3. Flex the metal print bed gently towards and then away from the printed part to break the adhesion.
 
 4. Then pull the piece off with your hands.
     * If there are small and/or thin pieces, you may want to use one of the 3D printed scrapers to help remove them.
