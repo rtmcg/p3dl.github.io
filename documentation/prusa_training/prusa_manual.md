@@ -64,7 +64,7 @@ The IP address is **312.206.36.183:3344**.
 
 6. Make sure there filament is loaded into the printer.
     * Make sure there is enough filament for the job. (An estimate of the required amount of filament is provided by the slicer software)
-    * If you need to load or change color, see section **Changing filament**.
+    * If you need to load or change color, see the section **Changing filament**.
 
 7. Click the print button next to your G-code on Repetier.
     * The filament and heat bed will automatically be preheated.
