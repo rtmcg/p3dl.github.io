@@ -51,21 +51,38 @@ I understand that the makerspace is under video surveillance.
 I agree to have fun and make some cool things and to help others do the same.
 
 \ 
+
 \ 
+
 \ 
+
 \ 
+
 \_____________________________
+
 name
+
 \ 
-\  
+
+\
+
 \_____________________________
+
 student ID
+
 \ 
-\  
+
+\ 
+
 \_____________________________
+
 date
+
 \ 
-\  
+
+\ 
+
 \_____________________________
+
 signature
 
