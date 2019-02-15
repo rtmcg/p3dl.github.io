@@ -49,22 +49,27 @@ I agree to follow all safety protocols.
 I will not do anything that will harm myself, others, or damage the equipment.
 I understand that the makerspace is under video surveillance.
 I agree to have fun and make some cool things and to help others do the same.  
-  
-  
-  
+>  
+
+>  
+
+>  
+
+>  
+
   
 \_____________________________  
 
-*name*  
+**name**  
 
 \_____________________________  
 
-*student ID*
+**student ID**
 
 \_____________________________  
 
-*date*
+**date**
 
 \_____________________________  
 
-*signature*  
+**signature**  
