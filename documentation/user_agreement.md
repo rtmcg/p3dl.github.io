@@ -1,5 +1,5 @@
-# Physics 3D Lab User Agreement
-## Open Hours: M-F 09h00 - 16h45
+# Gearbox Makerspace User Agreement
+## open hours: m - f 09h00 - 16h45
  
 ## rules and regulations 
 * Users must be current students at the McGill Department of Physics.
@@ -36,15 +36,13 @@ basis.
 * Long jobs (lasting more than 6 hours) should only be completed on the
 long job printer, overnight, or on the weekends. If you have questions concerning long print jobs, contact either of the first two personnel.
 
-## Contact Personnel
+## contact personnel
 * In case of need, contact either:
 1. the current TA, whose coordinates will be posted in the makerspace, 
 2. Robert Turner <robert.turner@mcgill.ca>, Wong 0121, x6356, or
 3. Thomas Brunner <thomas.brunner@mcgill.ca>.
 
-<!-- up to here - rt20190205 -->
-
-## Agreement
+## agreement
 I have read the User Agreement and agree to follow all rules and regulations of the space.
 I agree not to abuse the space, the materials, the tools, and printers.
 I agree to follow all safety protocols.
