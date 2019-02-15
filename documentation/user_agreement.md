@@ -57,14 +57,20 @@ I agree to have fun and make some cool things and to help others do the same.
 
 **name**  
 
+  \
+  \  
 \_____________________________  
 
 **student ID**
 
+  \
+  \  
 \_____________________________  
 
 **date**
 
+  \
+  \  
 \_____________________________  
 
 **signature**  
