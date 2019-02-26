@@ -1,0 +1,113 @@
+<h1 id="prusa-training-manual">Prusa Training Manual</h1>
+<p>This document will outline how to print in our lab using the Prusa I3 Mk2. This guide will give you all the basic information you need to know to get from 3D model to a printed piece.</p>
+<h2 id="converting-model-to-gcode">Converting model to GCODE</h2>
+<p>This guide starts assuming that you have a 3D model ready to go. You can either design your own part from your favorite CAD software, and export it as an STL, or download a model from a source, such as https://www.thingiverse.com/.</p>
+<p>Now that we have our model, we need to convert it into code that the 3D printer knows how to deal with --g-code. G-code is a numerical control programming language that will tell the printer exactly how to move in order to print our piece.</p>
+<p>In order to convert this software, we are going to use <strong>Slic3r</strong>.</p>
+<ol style="list-style-type: decimal">
+<li><p>Load the STL file into Slic3r.</p>
+<img src="./images/slicer_1.png" alt="slicer load" style="width: 50%;"></li>
+<li>Orient the object into your preferred orientation.
+<ul>
+<li>You can right click and move around different axes.</li>
+</ul></li>
+<li>Decide what fill density you want for &quot;solid&quot; volumes of your model.
+<ul>
+<li>0% is no infill. (Only the outer shell of the model will be printed)</li>
+<li>100% is fully infilled.</li>
+<li>15% is a standard infill for most print jobs.</li>
+</ul></li>
+<li>Decide if you need supports.
+<ul>
+<li>If there are any features that overhang by an angle of more than 45 degrees from vertical, supports are required.</li>
+</ul></li>
+<li>Select if you want a brim.
+<ul>
+<li>A brim will print a 5mm brim around the layer, which will help with making the print stick to the bed better. This does not consume much time or material, so generally it's advisable.</li>
+</ul></li>
+<li><p>Click &quot;Slice Now&quot;.</p></li>
+<li><p>Click &quot;Export G-code&quot;. <img src="./images/slicer_2_1.png" alt="slicer load" style="width: 90%;"></p></li>
+</ol>
+<h2 id="repetier-server">Repetier server</h2>
+<p>The printers are connected via a server. Although it is possible to print g-code from an SD card, the <strong>required</strong> way of printing is through the server.</p>
+<p>The server should only be accessed by the local printing computer.<br />
+The IP address is <strong>312.206.36.183:3344</strong>.</p>
+<p>You will get a user login to the Repetier server once you completed an orientation with Robert Turner or the TA.</p>
+<h2 id="printing">Printing</h2>
+<ol style="list-style-type: decimal">
+<li>Log onto your account.
+<ul>
+<li>If you don't have an account yet, then you must complete the training with the TA or Robert Turner.</li>
+</ul></li>
+<li>Choose the printer that you want to access (EQ6109, EQ6110, or EQ6111). <img src="./images/repetier_1.png" alt="slicer load" style="width: 90%;"></li>
+<li><p>Upload your G-code to the printer by clicking &quot;Upload G-Code&quot;. <img src="./images/repetier_2_1.png" alt="slicer load" style="width: 90%;"></p></li>
+<li>Make sure the printer is open:
+<ul>
+<li>Nothing being printed.</li>
+<li>Nothing on the print bed.</li>
+</ul></li>
+<li><p>Remove the spring steel heatbed. It's magnetic! See picture below for a good technique. Remove any fused filament from the bed, and clean it with &gt;90% Isopropanol <em>(Isopropyl alcohol - IUPAC name propan-2-ol; commonly called 2-propanol or IPA)</em> and a fresh, disposable lint-free wipe. Don't touch the cleaned print area of the heatbed with your bare hands or anything else. <img src="./images/removingPrusaHeatBed.png" alt="removing the Prusa heatbed" style="width: 90%;"></p></li>
+<li>Make sure there filament is loaded into the printer.
+<ul>
+<li>Make sure there is enough filament for the job. (An estimate of the required amount of filament is provided by the slicer software)</li>
+<li>If you need to load or change color, see the section <strong>Changing filament</strong>.</li>
+</ul></li>
+<li>Click the print button next to your G-code on Repetier.
+<ul>
+<li>The filament and heat bed will automatically be preheated.</li>
+<li>The print job will start once the componenents are at temperature.</li>
+</ul>
+<h2 id="note-by-tb-do-we-set-the-temperature-somewhere">Note by TB: do we set the temperature somewhere?</h2></li>
+<li>Verify that the print job is starting properly.
+<ul>
+<li>The nozzle will inspect 9 points on the bed for leveling.</li>
+<li>A test strip will be pushed deposited to clean the nozzle.</li>
+</ul></li>
+<li><p>Wait a few layers to be printed to ensure proper adhesion, maximizing chances of a successful print!</p></li>
+</ol>
+<h2 id="removing-print-job">Removing print job</h2>
+<ol style="list-style-type: decimal">
+<li>Once the print job has finished, you should remove the spring steel heatbed with the piece still attached.
+<ul>
+<li>It is attached by magnets. See point 5 in the section <strong>Printing</strong> above.</li>
+<li>You may need to move the extruder nozzle or stage to better access it, do so by using the mover controls in Repetier.</li>
+<li><em><strong>Use caution when moving the extruder! Verify, using small steps, which axes and directions in the software correspond to which physical movements in reality!</strong></em></li>
+</ul></li>
+<li><p>Flex the metal print bed gently towards and then away from the printed part to break the adhesion.</p></li>
+<li>Then pull the piece off with your hands.
+<ul>
+<li>If there are small and/or thin pieces, you may want to use one of the 3D printed scrapers to help remove them.</li>
+</ul></li>
+<li><p>Make sure all printed pieces and extra material are removed from the printed bed, then clean the print bed with IPA and a fresh wipe for the next person.</p></li>
+<li><p>Replace the bed on the printer.</p></li>
+<li><p>Throw away all scraps.</p></li>
+</ol>
+<h2 id="changing-filament">Changing filament</h2>
+<p>Changing the filament is all done on the printer.<br />
+All choices and commands are accessed and executed via the main menu and the control knob. Turn to select, press to initiate.<br />
+<em>The button marked with an X immediately below the control knob is not used to cancel a command or go up a menu level. It is only used to quickly power cycle the printer.</em></p>
+<ol style="list-style-type: decimal">
+<li><p>Preheat the extruder nozzle to PLA setting.</p></li>
+<li>If a filament is loaded, select &quot;Unload Filament.&quot;
+<ul>
+<li>Follow the instructions, and gently but firmly pull out the filament when it tells you to. Do not jerk the filament. If it doesn't remove completely and easily, seek assistance from the TA or RT.</li>
+<li>Do not let go of the end of the filament! Immediately secure it to the holes in the side walls of the spool. If you let go of the end it may snarl up, which will cause problems for the next person using the spool.</li>
+<li>Never leave the end of the filament hanging loose.</li>
+</ul></li>
+<li>Select the filament you want to load, and put it on the filament arm above the printer.
+<ul>
+<li>Make sure that the filament is not looped around itself and is snag free. If you are concerned that this happened, come and talk to the TA or Robert Turner.</li>
+</ul></li>
+<li><p>Clip the end of the filament off on an angle such that it has a fresh cleaved end that comes to a point. Throw away all scraps.</p></li>
+<li><p>On the printer select &quot;Load Filament&quot;.</p></li>
+<li><p>Follow the instructions, inserting the filament when it tells you to do so.</p></li>
+<li>The printer will then extrude some filament to clean the nozel, and will ask if the correct color is printing.
+<ul>
+<li>If yes, press &quot;yes&quot;.</li>
+<li>If no, press &quot;no&quot;, and it will run some more filament through.</li>
+</ul></li>
+</ol>
+<h2 id="closing-remarks">Closing Remarks</h2>
+<p>Remember, this is a brief outline of the printing procedure. If you have any reccomendations or additions that you think should be made, let us know.</p>
+<p>You may encounter some errors while printing (print falls off of heating bed, interruption, broken filament). If these happen, either check the FAQs on the website, or consult the Prusa documentation for the printer. Please inform us of any failed prints and any problems with the printer. We aim to improve the printer services and strive to provide reliable rinting.</p>
+<p>Log any issues or any major changes that you make, and stop printing immediately if a serious issue arises. Use software controls to cancel a print job. Do not just turn off the printer as this will stop the cooling fan to the filament, which may overheat.</p>
