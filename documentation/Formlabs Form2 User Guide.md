@@ -13,11 +13,11 @@
 
 
 ## Setting Up Printer For Print
--Load a print tray into the printer, if a previously used tray is being used do not remove cover before loading to avoid accidental spilling.
--Attach the squeegee to the squeegee attachment, make sure this is properly clipped in and is secure.
--Wipe off a build platform with IPA, then slide and lock it into place in the printer.
--Shake resin cartridge for 1 minute and then load it into back of printer, if orange cap is on valve then remove this first.
--Open top cap on cartridge to allow resin to flow.
+- Load a print tray into the printer, if a previously used tray is being used do not remove cover before loading to avoid accidental spilling.
+- Attach the squeegee to the squeegee attachment, make sure this is properly clipped in and is secure.
+- Wipe off a build platform with IPA, then slide and lock it into place in the printer.
+- Shake resin cartridge for 1 minute and then load it into back of printer, if orange cap is on valve then remove this first.
+- Open top cap on cartridge to allow resin to flow.
 
 ## Start Print
 - On the printer's LCD screen, find the uploaded job and select it for print.
