@@ -24,6 +24,7 @@
 - Follow instructions on screen to verify that everything is setup correctly.
 - Please supervise the first layer of print to insure that everything is functioning as it should.
 - If squeegee is colliding with build platform then stop the print and make sure squeegee is properly secured.
+- Mention "Peel" part of cycle
 
 ## Removing Print and Clearing Printer
 - Once print is complete, remove the build platform from the printer.
