@@ -33,8 +33,7 @@ they found it. Please clean up after yourself and others. We aim to maintain an 
 immediately contact both of the first two personnel to inform them. They should also leave a clear note explaining the issue on or next to the piece of equipment in question.
 * Print jobs taking up to 6 hours long can be printed on first come, first serve
 basis.
-* Long jobs (lasting more than 6 hours) should only be completed on the
-long job printer, overnight, or on the weekends. If you have questions concerning long print jobs, contact either of the first two personnel.
+* ~~Long jobs (lasting more than 6 hours) should only be completed on the long job printer, overnight, or on the weekends. If you have questions concerning long print jobs, contact either of the first two personnel.~~
 
 ## contact personnel
 * In case of need, contact either:
@@ -49,28 +48,15 @@ I agree to follow all safety protocols.
 I will not do anything that will harm myself, others, or damage the equipment.
 I understand that the makerspace is under video surveillance.
 I agree to have fun and make some cool things and to help others do the same.  
-  
-  \
-  \
-  \
-\___________________________________________________  
 
+___________________________________________________  
 **name**  
-  
-  \
-  \
-\___________________________________________________  
 
-**student ID**
-  
-  \
-  \
-\___________________________________________________  
+___________________________________________________  
+**mcgill id**
 
+___________________________________________________  
 **date**
   
-  \
-  \
-\___________________________________________________  
-
+___________________________________________________  
 **signature**  
